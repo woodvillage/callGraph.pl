@@ -1,8 +1,8 @@
 #!/usr/bin/perl  
  
 #use diagnostics; 
-my $a2l = "/home/yk/work/ut6410-android2.1-v2.0/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-addr2line";
-my $SoBase = "/home/yk/work/ut6410-android2.1-v2.0s/out/target/product/ut6410/symbols/system/lib/";
+my $a2l = "/root/android-ndk-r10d/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-addr2line";
+my $SoBase = "/root/so/";
 my $ext = "so";
 my $fnasm = "<" . "callg.total";     
 print $fnasm; 

@@ -18,7 +18,7 @@ exit if(index(lc($soname), "webcore") >= 0);
 $fnasm = "<" . $fnasm;
 print "\n\n";
 
-my $base = "/home/yk/work/ut6410-android2.1-v2.0/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-";
+my $base = "/root/android-ndk-r10d/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-";
  
 my $flt = $base . "c++filt"; 
 

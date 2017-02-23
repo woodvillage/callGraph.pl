@@ -1,7 +1,7 @@
 #!/bin/bash  
-declare objd="/home/yk/work/ut6410-android2.1-v2.0/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-objdump" 
-declare SoBase="/home/yk/work/ut6410-android2.1-v2.0s/out/target/product/ut6410/symbols/system/lib/" 
-declare readelf="/home/yk/work/ut6410-android2.1-v2.0/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-readelf" 
+declare objd="/root/android-ndk-r10d/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-objdump" 
+declare SoBase="/root/so/" 
+declare readelf="/root/android-ndk-r10d/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-readelf" 
 for f in `ls $SoBase `
 do 
   echo "disassembling $f and dumping rel information"
